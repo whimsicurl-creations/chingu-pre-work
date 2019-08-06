@@ -60,11 +60,12 @@ nav ul li a:hover {
 /* ===== HOMEPAGE ===== */
 #homepage {
     background-image: url('../img/home-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
-    /* filter: blur(3px); */
     height: 600px;
-    z-index: -1;
 }
 header {
     display: flex;
