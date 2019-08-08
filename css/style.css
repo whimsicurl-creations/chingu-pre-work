@@ -15,15 +15,29 @@ h1 {
     text-align: center;
 }
 .wrapper {
+    display: flex;
+    flex-flow: row wrap;
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
+    border: solid 1px yellowgreen;
+}
+.inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 1px purple;
 }
 .fixed-bg {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.7;
+}
+.third-width {
+    width: 30%;
+    border: solid 1px red;
 }
 
 /* ===== NAVIGATION ===== */
@@ -75,6 +89,9 @@ header {
     align-items: center;
     height: 600px;
 }
+header .wrapper {
+    flex-direction: column;
+}
 #homepage h1 {
     font-size: 60px;
     text-transform: uppercase;
@@ -88,6 +105,35 @@ header {
 }
 
 /* ===== ABOUT US ===== */
+#about img {
+    max-width: 100%;
+}
+#about button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+#green h2 {
+    color: #178927;
+}
+#green button {
+    background-color: #178927;
+}
+#blue h2 {
+    color: #1586C0;
+}
+#blue button {
+    background-color: #1586C0;
+}
+#red h2 {
+    color: #862407;
+}
+#red button {
+    background-color: #862407;
+}
 
 /* ===== SERVICES ===== */
 #services {
