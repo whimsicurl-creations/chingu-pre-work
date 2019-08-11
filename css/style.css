@@ -35,6 +35,10 @@ h1 {
     background-size: cover;
     opacity: 0.7;
 }
+.full-width {
+    width: 100%;
+    border: solid 1px aqua;
+}
 .half-width {
     width: 48.5%;
     border: solid 1px blue;
@@ -155,12 +159,32 @@ header .wrapper {
 }
 
 /* ===== SERVICES ===== */
-#services {
+#services-img {
     background-image: url('../img/services-bg.jpg');
     height: 300px;
 }
+#services .heading {
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+#services .heading h1 {
+    margin-bottom: 25px;
+}
+#services .heading p {
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+    text-shadow: 1px 1px #333;
+}
 .fourth-width img {
-    width: 100%;
+    max-width: 100%;
+}
+.full-width img {
+    max-width: 100%;
 }
 
 /* ===== CONTACT ===== */
