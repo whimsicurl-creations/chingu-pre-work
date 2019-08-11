@@ -37,11 +37,15 @@ h1 {
 }
 .half-width {
     width: 48.5%;
-    border solid 1px blue;
+    border: solid 1px blue;
 }
 .third-width {
     width: 31.5%;
     border: solid 1px red;
+}
+.fourth-width {
+    width: 22.5%;
+    border: solid 1px orange;
 }
 .box {
     background-color: #F2F2F2;
@@ -124,29 +128,39 @@ header .wrapper {
     color: #fff;
     font-size: 18px;
 }
+#green div, #blue div, #red div {
+    display: flex;
+}
 #green h2 {
     color: #178927;
 }
 #green button {
     background-color: #178927;
+    margin: 0 auto;
 }
 #blue h2 {
     color: #1586C0;
 }
+
 #blue button {
     background-color: #1586C0;
+    margin: 0 auto;
 }
 #red h2 {
     color: #862407;
 }
 #red button {
     background-color: #862407;
+    margin: 0 auto;
 }
 
 /* ===== SERVICES ===== */
 #services {
     background-image: url('../img/services-bg.jpg');
     height: 300px;
+}
+.fourth-width img {
+    width: 100%;
 }
 
 /* ===== CONTACT ===== */
