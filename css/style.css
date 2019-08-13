@@ -200,5 +200,37 @@ header .wrapper {
 /* ===== CONTACT ===== */
 #contact {
     background-image: url('../img/contact-bg.jpg');
-    height: 600px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact .wrapper {
+    width: 50%;
+}
+#contact h1 {
+    width: 100%;
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+}
+#contact p, #contact form input, #contact textarea {
+    background: rgba(255,255,255,0.6);
+    color: #000;
+    outline: none;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+::placeholder {
+    color: black;
 }
