@@ -55,6 +55,15 @@ h1 {
     background-color: #F2F2F2;
     margin: 20px 0;
 }
+.box-content {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: solid 1px maroon;
+}
+.box-content p {
+    padding: 10px 0;
+}
 
 /* ===== NAVIGATION ===== */
 nav {
@@ -134,6 +143,7 @@ header .wrapper {
 }
 #green div, #blue div, #red div {
     display: flex;
+    padding-top: 10px;
 }
 #green h2 {
     color: #178927;
