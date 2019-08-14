@@ -186,7 +186,6 @@ header .wrapper {
     width: 50%;
     margin: 0 auto;
     color: white;
-    /* font-weight: bold; */
     font-size: 20px;
     text-shadow: 1px 1px #333;
 }
@@ -225,7 +224,6 @@ form {
     color: #000;
     outline: none;
     border: none;
-    width: 100%;
     box-sizing: border-box;
     margin: 10px;
     padding: 5px;
