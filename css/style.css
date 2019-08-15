@@ -7,11 +7,14 @@ body {
     background: #fff;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
+    color: #333;
+    line-height: 22px;
 }
 h1 {
     color: #fff;
     text-shadow: 2px 2px 0 #000;
     font-size: 36px;
+    line-height: 48px;
     text-align: center;
 }
 .wrapper {
@@ -20,36 +23,36 @@ h1 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: solid 1px yellowgreen;
+    /* border: solid 1px yellowgreen; */
 }
 .inner-wrapper {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border: solid 1px purple;
+    /* border: solid 1px purple; */
 }
 .fixed-bg {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .full-width {
     width: 100%;
-    border: solid 1px aqua;
+    /* border: solid 1px aqua; */
 }
 .half-width {
     width: 48.5%;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
 }
 .third-width {
     width: 31.5%;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 .fourth-width {
     width: 22.5%;
-    border: solid 1px orange;
+    /* border: solid 1px orange; */
 }
 .box {
     background-color: #F2F2F2;
@@ -59,7 +62,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    border: solid 1px maroon;
+    /* border: solid 1px maroon; */
 }
 .box-content p {
     padding: 10px 0;
@@ -105,8 +108,24 @@ nav ul li a:hover {
 
 /* ===== HOMEPAGE ===== */
 #homepage {
-    background-image: url('../img/home-bg.jpg');
+    /* background-image: url('../img/home-bg.jpg'); */
     height: 600px;
+}
+#homepage::after {
+    content: "";
+    background-image: url('../img/home-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    position: absolute;
+    height: 600px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }
 header {
     display: flex;
@@ -118,7 +137,8 @@ header .wrapper {
     flex-direction: column;
 }
 #homepage h1 {
-    font-size: 60px;
+    font-size: 72px;
+    line-height: 96px;
     text-transform: uppercase;
     font-weight: lighter;
 }
@@ -126,6 +146,7 @@ header .wrapper {
     color: #fff;
     text-align: center;
     font-size: 24px;
+    line-height: 36px;
     text-shadow: 1px 1px 0 #000;
 }
 
@@ -231,4 +252,10 @@ form {
 }
 ::placeholder {
     color: black;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    line-height: 48px;
 }
