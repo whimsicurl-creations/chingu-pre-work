@@ -67,6 +67,15 @@ h1 {
 .box-content p {
     padding: 10px 0;
 }
+button {
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px 30px 15px;
+    border: 1px solid #CCC;
+}
 
 /* ===== NAVIGATION ===== */
 nav {
@@ -154,14 +163,6 @@ header .wrapper {
 #about img {
     max-width: 100%;
 }
-#about button {
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 18px;
-}
 #green div, #blue div, #red div {
     display: flex;
     padding-top: 10px;
@@ -171,6 +172,9 @@ header .wrapper {
 }
 #green button {
     background-color: #178927;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     margin: 0 auto;
 }
 #blue h2 {
@@ -179,6 +183,9 @@ header .wrapper {
 
 #blue button {
     background-color: #1586C0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     margin: 0 auto;
 }
 #red h2 {
@@ -186,7 +193,16 @@ header .wrapper {
 }
 #red button {
     background-color: #862407;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     margin: 0 auto;
+}
+button.basic {
+    background: #fff;
+    color: #333;
+    float: right;
+    
 }
 
 /* ===== SERVICES ===== */
