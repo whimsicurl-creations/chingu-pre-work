@@ -75,6 +75,10 @@ button {
     font-size: 18px;
     margin: 10px 30px 15px;
     border: 1px solid #CCC;
+    cursor: pointer;
+}
+.basic:hover {
+    background: #E6E6E6;
 }
 
 /* ===== NAVIGATION ===== */
@@ -177,6 +181,9 @@ header .wrapper {
     border-radius: 5px;
     margin: 0 auto;
 }
+#green button:hover {
+    background-color: #1EAE31;
+}
 #blue h2 {
     color: #1586C0;
 }
@@ -188,6 +195,9 @@ header .wrapper {
     border-radius: 5px;
     margin: 0 auto;
 }
+#blue button:hover {
+    background-color: #19A1E6;
+}
 #red h2 {
     color: #862407;
 }
@@ -197,6 +207,9 @@ header .wrapper {
     border: none;
     border-radius: 5px;
     margin: 0 auto;
+}
+#red button:hover {
+    background-color: #aa2e09;
 }
 button.basic {
     background: #fff;
@@ -268,6 +281,14 @@ form {
 }
 ::placeholder {
     color: black;
+}
+#contact button {
+    background-color: #262628;
+    color: #fff;
+}
+#contact button:hover {
+    background-color: #fff;
+    color: #262628;
 }
 
 /* ===== FOOTER ===== */
