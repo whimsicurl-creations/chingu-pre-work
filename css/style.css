@@ -78,6 +78,7 @@ button {
     margin: 10px 30px 15px;
     border: 1px solid #CCC;
     cursor: pointer;
+    transition: all ease 0.2s;
 }
 .basic:hover {
     background: #E6E6E6;
@@ -297,14 +298,14 @@ form {
 #contact button {
     background-color: #262628;
     color: #fff;
-    /* display: flex; */
     padding: 10px 20px;
     width: 120px;
     text-align: center;
     margin-left: 10px;
+    
 }
 #contact button:hover {
-    background-color: #fff;
+    background-color: #e6e6e6;
     color: #262628;
 }
 
