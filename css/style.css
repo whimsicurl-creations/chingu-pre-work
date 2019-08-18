@@ -118,7 +118,7 @@ nav ul li a {
     border: 1px solid #666C7A;
     font-size: 16px;
 }
-nav ul li a:hover {
+nav ul li a:hover, .active {
     background-color: #495060
 }
 #back-to-top {
@@ -296,4 +296,16 @@ form {
 footer {
     text-align: center;
     line-height: 48px;
+    height: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h4 {
+    color: #AAA;
+    font-size: 36px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #DDD;
+    margin-top: 10px;
 }
