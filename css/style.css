@@ -39,7 +39,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 .full-width {
     width: 100%;
