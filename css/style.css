@@ -165,6 +165,15 @@ header .wrapper {
 }
 
 /* ===== ABOUT US ===== */
+#about {
+    padding: 50px 0;
+}
+#about .wrapper {
+    max-width: 1200px;
+}
+#about .inner-wrapper {
+    padding: 0 20px;
+}
 #about img {
     max-width: 100%;
 }
@@ -220,6 +229,13 @@ button.basic {
 }
 
 /* ===== SERVICES ===== */
+#services .wrapper {
+    max-width: 1200px;
+    padding: 50px 0;
+}
+#services .inner-wrapper {
+    padding: 0 20px;
+}
 #services-img {
     background-image: url('../img/services-bg.jpg');
     height: 300px;
