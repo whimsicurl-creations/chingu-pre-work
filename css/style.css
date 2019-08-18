@@ -279,21 +279,24 @@ form {
 }
 #contact p, #contact form input, #contact textarea {
     background: rgba(255,255,255,0.6);
-    color: #000;
+    color: #333;
     line-height: 24px;
     outline: none;
     border: none;
     box-sizing: border-box;
     margin: 10px;
-    padding: 5px;
-    border-radius: 3px;
+    padding: 5px 0 5px 10px;
+    border-radius: 4px;
 }
 #contact p {
     padding: 20px 15px;
     text-align: center;
 }
 ::placeholder {
-    color: black;
+    color:#333;
+}
+textarea {
+    font-family: 'Open Sans', sans-serif;
 }
 #contact button {
     background-color: #262628;
