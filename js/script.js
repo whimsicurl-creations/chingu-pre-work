@@ -31,6 +31,7 @@ var homepage = document.querySelector('#homepage-nav');
 var about = document.querySelector('#about-nav');
 var services = document.querySelector('#services-nav');
 var contact = document.querySelector('#contact-nav');
+var toTop = document.querySelector('#back-to-top');
 
 homepage.addEventListener('click', function() {
     smoothScroll('#homepage', 2000);
@@ -43,4 +44,7 @@ services.addEventListener('click', function() {
 });
 contact.addEventListener('click', function() {
     smoothScroll('#contact', 2000);
+});
+toTop.addEventListener('click', function() {
+    smoothScroll('#homepage', 2000);
 });

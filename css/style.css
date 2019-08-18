@@ -118,6 +118,14 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #495060
 }
+#back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+#back-to-top img {
+    max-width: 40px;
+}
 
 /* ===== HOMEPAGE ===== */
 #homepage {
