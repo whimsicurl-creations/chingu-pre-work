@@ -234,8 +234,8 @@ button.basic {
 #services .wrapper {
     max-width: 1200px;
 }
-#services .inner-wrapper {
-    padding: 0 20px;
+#services-wrapper {
+    padding: 50px 20px;
 }
 #services-img {
     background-image: url('../img/services-bg.jpg');

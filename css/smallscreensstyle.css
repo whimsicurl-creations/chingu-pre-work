@@ -120,3 +120,16 @@ nav.wrapper {
     float: left;
     margin-left: 0;
 }
+
+/* ===== CONTACT ===== */
+#contact {
+    height: 720px;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+.form-left, .form-right {
+    margin: 0;
+    width: 100%;
+}
