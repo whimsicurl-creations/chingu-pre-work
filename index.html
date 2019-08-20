@@ -6,17 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Conquer | Chingu Pre-Work</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/smallscreensstyle.css" media="screen and (max-width:768px)">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
         <div class="wrapper">
             <ul id="desktop-nav">
-                <li><a href="#homepage" id="homepage-nav" class="links">Homepage</a></li>
-                <li><a href="#about" id="about-nav" class="links">About Us</a></li>
-                <li><a href="#services" id="services-nav" class="links">Services</a></li>
-                <li><a href="#contact" id="contact-nav" class="links">Contact</a></li>
+                <li><a href="#homepage" class="links">Homepage</a></li>
+                <li><a href="#about" class="links">About Us</a></li>
+                <li><a href="#services" class="links">Services</a></li>
+                <li><a href="#contact" class="links">Contact</a></li>
                 <li><a href="#">External</a></li>
+            </ul>
+        </div>
+        <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+        <div id="collapse-nav">
+            <ul>
+                <li><a href="#homepage" class="links" onclick="toggleNav()">Homepage</a></li>
+                <li><a href="#about" class="links" onclick="toggleNav()">About Us</a></li>
+                <li><a href="#services" class="links" onclick="toggleNav()">Services</a></li>
+                <li><a href="#contact" class="links" onclick="toggleNav()">Contact</a></li>
+                <li><a href="#" onclick="toggleNav()">External</a></li>
             </ul>
         </div>
         <a href="#homepage" id="back-to-top"><img src="img/to-top-icon.png" alt="Back to top"></a>

@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    margin-top: 5px;
+    z-index: 1;
+}
+nav.wrapper {
+    display: none;
+}
+#desktop-nav {
+    display: none;
+}
+.btn-toggle-nav {
+    position: fixed;
+    top: 0;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/white-menu.png);
+    background-color: #383E4C;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
+    z-index: 10;
+}
+.btn-toggle-nav:hover {
+    background-color: #495060;
+}
+#collapse-nav {
+    width: 100%;
+    display: flex;
+}
+#collapse-nav ul {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #383E4C;
+}
+#collapse-nav ul li {
+    width: 100%;
+    line-height: 20px;
+    list-style: none;
+    border-bottom: solid 1px #666C7A;
+}
+#collapse-nav ul li a {
+    display: block;
+    height: 20px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    background-color: #383E4C;
+    font-size: 16px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+}
+#collapse-nav ul li a:hover {
+    background-color: #495060;
+}
