@@ -139,7 +139,7 @@ nav ul li a:hover, .active {
 /* ===== HOMEPAGE ===== */
 #homepage {
     background-image: url('../img/home-bg.jpg');
-    height: 670px;
+    height: 600px;
 }
 header {
     display: flex;
@@ -231,7 +231,7 @@ button.basic {
 /* ===== SERVICES ===== */
 #services .wrapper {
     max-width: 1200px;
-    padding: 50px 0;
+    padding: 0px 0;
 }
 #services .inner-wrapper {
     padding: 0 20px;
