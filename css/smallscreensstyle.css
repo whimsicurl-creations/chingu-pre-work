@@ -102,6 +102,9 @@ nav.wrapper {
 }
 
 /* ===== SERVICES ====== */
+#services .heading p {
+    width: 75%;
+}
 #four-columns {
     flex-flow: row wrap;
     align-items: stretch;
@@ -132,4 +135,38 @@ nav.wrapper {
 .form-left, .form-right {
     margin: 0;
     width: 100%;
+}
+
+/* ===== MEDIA QUERY FOR PHONES & SCREENS UNDER 480PX ===== */
+@media screen and (max-width: 550px) {
+    .wrapper {
+        width: 98%;
+    }
+    .inner-wrapper {
+        width: 90%;
+    }
+    .full-width {
+        width: 100%;
+    }
+    .half-width {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .third-width {
+        width: 85%;
+    }
+    .fourth-width {
+        width: 70%;
+        margin: 0 auto;
+    }
+    #services-wrapper {
+        padding: 50px 0;
+    }
+    #four-columns {
+        flex-direction: column;
+        max-width: 100%;        
+    }
+    #four-columns .box {
+        margin-bottom: 25px;
+    }
 }
