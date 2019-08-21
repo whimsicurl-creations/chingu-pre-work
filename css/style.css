@@ -298,6 +298,9 @@ form {
     padding: 5px 0 5px 10px;
     border-radius: 4px;
 }
+#contact .form-left input {
+    line-height: 2.05rem;
+}
 #contact p {
     padding: 20px 15px;
     text-align: center;
