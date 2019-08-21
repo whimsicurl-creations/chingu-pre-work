@@ -16,8 +16,8 @@ body {
 h1 {
     color: #fff;
     text-shadow: 2px 2px 0 #000;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 2.57rem;
+    line-height: 3.43rem;
     text-align: center;
 }
 .wrapper {
@@ -26,13 +26,11 @@ h1 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    /* border: solid 1px yellowgreen; */
 }
 .inner-wrapper {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* border: solid 1px purple; */
 }
 .fixed-bg {
     background-attachment: fixed;
@@ -42,19 +40,15 @@ h1 {
 }
 .full-width {
     width: 100%;
-    /* border: solid 1px aqua; */
 }
 .half-width {
     width: 48.5%;
-    /* border: solid 1px blue; */
 }
 .third-width {
     width: 31.5%;
-    /* border: solid 1px red; */
 }
 .fourth-width {
     width: 22.5%;
-    /* border: solid 1px orange; */
 }
 .box {
     background-color: #F2F2F2;
@@ -64,7 +58,6 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    /* border: solid 1px maroon; */
 }
 .box-content p {
     padding: 10px 0;
@@ -74,7 +67,7 @@ button {
     border: none;
     outline: none;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 1.285rem;
     margin: 10px 30px 15px;
     border: 1px solid #CCC;
     cursor: pointer;
@@ -116,7 +109,7 @@ nav ul li a {
     text-decoration: none;
     padding: 12px 25px;
     border: 1px solid #666C7A;
-    font-size: 16px;
+    font-size: 1.14rem;
 }
 nav ul li a:hover, .active {
     background-color: #495060;
@@ -154,16 +147,16 @@ header .wrapper {
     flex-direction: column;
 }
 #homepage h1 {
-    font-size: 72px;
-    line-height: 96px;
+    font-size: 5.14rem;
+    line-height: 6.86rem;
     text-transform: uppercase;
     font-weight: lighter;
 }
 #homepage h4 {
     color: #fff;
     text-align: center;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.71rem;
+    line-height: 2.57rem;
     text-shadow: 1px 1px 0 #000;
 }
 
@@ -254,7 +247,7 @@ button.basic {
     width: 50%;
     margin: 0 auto;
     color: white;
-    font-size: 20px;
+    font-size: 1.43rem;
     text-shadow: 1px 1px #333;
 }
 .fourth-width img {
@@ -297,7 +290,7 @@ form {
 #contact p, #contact form input, #contact textarea {
     background: rgba(255,255,255,0.6);
     color: #333;
-    line-height: 24px;
+    line-height: 1.71rem;
     outline: none;
     border: none;
     box-sizing: border-box;
@@ -332,7 +325,7 @@ textarea {
 /* ===== FOOTER ===== */
 footer {
     text-align: center;
-    line-height: 48px;
+    line-height: 3.43rem;
     height: 150px;
     display: flex;
     flex-flow: column;
@@ -341,7 +334,7 @@ footer {
 }
 footer h4 {
     color: #AAA;
-    font-size: 36px;
+    font-size: 2.57rem;
     font-style: italic;
     text-shadow: 2px 2px 3px #DDD;
     margin-top: 10px;

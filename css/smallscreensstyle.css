@@ -8,23 +8,18 @@
     flex-direction: column;
     align-items: center;
     width: 90%;
-    /* border: solid 1px black; */
 }
 .full-width {
     width: 100%;
-    /* border: solid 1px aqua; */
 }
 .half-width {
     width: 80%;
-    /* border: solid 1px blue; */
 }
 .third-width {
     width: 55%;
-    /* border: solid 1px red; */
 }
 .fourth-width {
     width: 40%;
-    /* border: solid 1px orange; */
 }
 
 /* ===== NAVIGATION - Collapsed ====== */
@@ -79,7 +74,7 @@ nav.wrapper {
 }
 #collapse-nav ul li {
     width: 100%;
-    line-height: 20px;
+    line-height: 1.43rem;
     list-style: none;
     border-bottom: solid 1px #666C7A;
 }
@@ -90,7 +85,7 @@ nav.wrapper {
     text-decoration: none;
     color: #fff;
     background-color: #383E4C;
-    font-size: 16px;
+    font-size: 1.14rem;
     border: none;
     font-family: 'Open Sans', sans-serif;
     opacity: 0;
