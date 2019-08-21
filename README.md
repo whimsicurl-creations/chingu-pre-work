@@ -16,7 +16,7 @@ It is a responsive website designed to look great on a wide variety of screen si
 
 ###### Live version:
 
-[Github Pages link !!Need to Update!!](https://github.com/whimsicurl-creations/chingu-pre-work/new/master)
+[Github Pages link](https://whimsicurl-creations.github.io/chingu-pre-work/)
 
 ###### From the repo:
 1. Clone this project locally.
