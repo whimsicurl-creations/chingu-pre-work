@@ -133,7 +133,7 @@ nav.wrapper {
 }
 
 /* ===== MEDIA QUERY FOR PHONES & SCREENS UNDER 480PX ===== */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
     .wrapper {
         width: 98%;
     }
@@ -154,6 +154,13 @@ nav.wrapper {
         width: 70%;
         margin: 0 auto;
     }
+    #homepage h1 {
+        /* max-width: 80%; */
+        font-size: 3.5rem;
+    }
+    #homepage h4 {
+        font-size: 1.5rem;
+    }
     #services-wrapper {
         padding: 50px 0;
     }
@@ -163,5 +170,9 @@ nav.wrapper {
     }
     #four-columns .box {
         margin-bottom: 25px;
+    }
+    footer h4 {
+        margin-top: 60px;
+        font-size: 2.5rem;
     }
 }
