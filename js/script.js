@@ -47,3 +47,23 @@ function changeLinkState() {
 
 changeLinkState();
 window.addEventListener('scroll', changeLinkState);
+
+// Parallax effect for three sections
+const homePar = document.getElementById('homepage');
+const servicesPar = document.getElementById('services-img');
+const contactPar = document.getElementById('contact');
+
+window.addEventListener('scroll', function() {
+    let offset = window.pageYOffset;
+    homePar.style.backgroundPositionY = offset * 0.7 + 'px';
+});
+
+window.addEventListener('scroll', function() {
+    let offset = window.pageYOffset;
+    servicesPar.style.backgroundPositionY = offset * 0.3 + 'px';
+});
+
+window.addEventListener('scroll', function() {
+    let offset = window.pageYOffset;
+    contactPar.style.backgroundPositionY = offset * 0.2 + 'px';
+});

@@ -33,9 +33,7 @@ h1 {
     width: 100%;
 }
 .fixed-bg {
-    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .full-width {
