@@ -1,4 +1,4 @@
-# Chingu Tier 1 Pre-Work
+#### Chingu Tier 1 Pre-Work
 
 ### Overview
 This site was done to recreate the Conquer template seen [here](https://www.free-css.com/free-css-templates/page196/conquer).
@@ -12,9 +12,7 @@ This site was designed using:
 - flexbox
 It is a responsive website designed to look great on a wide variety of screen sizes.
 
-### Running this Project
-
-###### Live version:
+### Live version:
 
 [Github Pages link](https://whimsicurl-creations.github.io/chingu-pre-work/)
 
