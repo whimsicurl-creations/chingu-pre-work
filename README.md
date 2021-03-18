@@ -10,6 +10,7 @@ This site was designed using:
 - CSS3
 - vanilla JavaScript
 - flexbox
+
 It is a responsive website designed to look great on a wide variety of screen sizes.
 
 ### Live version:
